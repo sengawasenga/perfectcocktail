@@ -2,3 +2,21 @@
     Hey guys, really appreciate seeing you watching these codes,
     it's your boy, fleshOwl! hope you'll enjoy ! luv your pretty face 😘
 */
+
+body {
+    font-family: 'Quicksand',
+    sans-serif;
+    font-weight: 300;
+}
+
+.handwritten {
+    font-family: 'Charmonman',
+    cursive;
+}
+
+.bold {
+    font-weight: 700;
+}
+.thin {
+    font-weight: 300;
+}
