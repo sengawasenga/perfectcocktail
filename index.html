@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- 
         Hey guys, really appreciate seeing you watching these codes,
@@ -26,10 +28,134 @@
 
     <!-- the main app -->
     <div class="app">
-        <h1 class="handwritten thin">Mbote <span class="bold">na bino</span></h1>
-        <p>Mbote lisusu!</p>
+
+        <!-- the mobile navigation menu -->
+        <div class="mobile_navigation_menu">
+            <nav>
+                <ul class="menu_links">
+                    <li><a href="cocktail_name.html" class="active">Cocktail name</a></li>
+                    <li><a href="ingredient.html">Ingredient</a></li>
+                    <li><a href="category.html">Category</a></li>
+                    <li><a href="alcohol_non_alcohol.html">Alcohol/Non alcohol</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu_copyrights">
+                <p class="m-0">Copyrights 2022 - Made with ❤ by fleshOwl</p>
+            </div>
+        </div>
+
+        <!-- the main content wrapper -->
+        <div class="main_content">
+            <header class="header">
+
+                <!-- the navbar block goes right here -->
+                <div class="navbar_block">
+                    <div class="navbar_links">
+                        <div class="container">
+                            <div class="d-flex align-items-center justify-content-between position-relative w-100">
+                                <div class="brand">
+                                    <a href="index.html" class="handwritten fs-4">
+                                        <span class="thin">Perfect</span><span class="bold text_blue">Cocktail</span>
+                                    </a>
+                                </div>
+
+                                <nav>
+                                    <ul class="links d-none d-lg-flex align-items-center">
+                                        <li>
+                                            <a href="cocktail_name.html" class="navbar_link active">Cocktail name</a>
+                                        </li>
+                                        <li><a href="ingredient.html" class="navbar_link">Ingredient</a></li>
+                                        <li><a href="category.html" class="navbar_link">Category</a></li>
+                                        <li><a href="alcohol_non_alcohol.html" class="navbar_link">Alcohol/Non
+                                                alcohol</a></li>
+                                    </ul>
+                                </nav>
+
+                                <div class="d-flex align-items-center">
+                                    <a href="register.html" class="btn-core me-2">My favorite</a>
+
+                                    <div class="hamburger">
+                                        <div class="bars"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- the main content -->
+            <main role="main">
+                <section class="section">
+                    <div class="container">
+
+                        <!-- the header -->
+                        <div class="section_center">
+                            <div class="custom_card py-4">
+                                <h1 class="fs-2 mb-3 text-center">Search coktails by name</h1>
+                                <form action="" id="search_by_name_form">
+                                    <div class="mb-3">
+                                        <label for="" class="small">Cocktail name</label>
+                                        <input type="text" id="cokctail_name" placeholder="Ex: Margarita" class="input">
+                                    </div>
+                                    <button class="btn-core">Get cocktails</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- the cokctails list -->
+                        <hr class="custom_hr my-5">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <div class="custom_card">
+                                    <div class="custom_card_img">
+                                        <img src="img/core.jfif" alt="" class="cover">
+                                        <div class="like">
+                                            <i class="bi-heart-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="custom_card_text">
+                                        <div class="mb-3">
+                                            <h4 class="fs-6 bold">Instructions:</h4>
+                                            <p>
+                                                Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake
+                                                tequila, blue curacao, and lime juice with ice, strain into the
+                                                salt-rimmed
+                                                glass, and serve.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <span class="badge rounded-pill text-bg-warning me-2">Alcoholic</span>
+                                            <span class="badge rounded-pill text-bg-secondary me-2">Category: Ordinary drink</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </main>
+
+            <!-- the footer content -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <a href="index.html" class="handwritten fs-5">
+                                <span class="thin">Perfect</span><span class="bold text_blue">Cocktail</span>
+                            </a>
+                        </div>
+                        <div>
+                            Copyright &copy; 2022 | Made with 😍 by fleshOwl.
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
-    
+
 
     <!-- script links -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -40,4 +166,5 @@
     </script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
